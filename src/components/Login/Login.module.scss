@@ -1,0 +1,29 @@
+
+.login-wrapper {
+  background: #151515;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.spotify-img {
+  width: 50%;
+}
+
+.btn-connect {
+  outline: none;
+  border: none;
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+
+.btn-connect:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
